@@ -44,7 +44,7 @@ class _State extends State<MyApp> {
               onPressed: () => {
                 runApp(const WebViewExample())
               },
-              child: Text('Button Clicks - $count'),
+              child: Text('Button Clicks'),
             ),
           ),
         ));

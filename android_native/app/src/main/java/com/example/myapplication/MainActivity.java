@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
                 // 아이디, 비밀번호 null일 경우 체크하여 return
                 if ( userId.getText().length() < 1 ) {
                     Log.d("MainActivity", "================ userId null");
-                    Toast.makeText(MainActivity.this, "아이디를 입력하세요.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "아이디를 입력하세요(아무값 입력).", Toast.LENGTH_LONG).show();
                     return;
                 }
                 if ( password.getText().length() < 1 ){
                     Log.d("MainActivity", "================ password null");
-                    Toast.makeText(MainActivity.this, "비밀번호를 입력하세요.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "비밀번호를 입력하세요(아무값 입력).", Toast.LENGTH_LONG).show();
                     return;
                 }
 
