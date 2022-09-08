@@ -28,12 +28,20 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\myungwan\Desktop\mobile_application\androidNativeKeyStore.jks" />
+    <option name="KEY_ALIAS" value="androidNativeKey" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
   <component name="ProjectId" id="2E7FNzmMBAvAIgBxkzUsY0ZTvEk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="My_Application.app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\myungwan\Desktop\mobile_application\android_native\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
