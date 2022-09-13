@@ -92,13 +92,13 @@
     <integer name="google_play_services_version">12451000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
-    <string name="default_web_client_id" translatable="false">498217471388-qt101fak0tadtqsm79bgjo8k5pfrrlgg.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">498217471388</string>
-    <string name="google_api_key" translatable="false">AIzaSyD7LwSOyHRGJXNj8-poZ3Piz-mcLKuiAuE</string>
-    <string name="google_app_id" translatable="false">1:498217471388:android:6ca345aa1935dd985d4c59</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD7LwSOyHRGJXNj8-poZ3Piz-mcLKuiAuE</string>
-    <string name="google_storage_bucket" translatable="false">testapplication-6d2c9.appspot.com</string>
-    <string name="project_id" translatable="false">testapplication-6d2c9</string>
+    <string name="default_web_client_id" translatable="false">64317191869-drcnf48gsgc55o9t36qvtqk7ub3fu8gg.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">64317191869</string>
+    <string name="google_api_key" translatable="false">AIzaSyAt2boprl2dpO-HLFN899k-3-eCYvEfR_4</string>
+    <string name="google_app_id" translatable="false">1:64317191869:android:41265f3206e17146cf29d4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAt2boprl2dpO-HLFN899k-3-eCYvEfR_4</string>
+    <string name="google_storage_bucket" translatable="false">flutterapptest-95866.appspot.com</string>
+    <string name="project_id" translatable="false">flutterapptest-95866</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when
