@@ -1,62 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\fragment_slideshow.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\fragment_slideshow.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/activity_main.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\activity_main.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/fragment_slideshow.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/fragment_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\fragment_home.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/activity_webview.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/activity_webview.xml"
     },
     {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\content_main.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\content_main.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/content_main.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/content_main.xml"
     },
     {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\activity_webview.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\activity_webview.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/app_bar_main.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\nav_header_main.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\nav_header_main.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/nav_header_main.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/nav_header_main.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-26:/layout/fragment_home.xml",
-        "source": "com.example.myapplication.app-main-29:/layout/fragment_home.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/fragment_home.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-26:/layout/nav_header_main.xml",
-        "source": "com.example.myapplication.app-main-29:/layout/nav_header_main.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-26:/layout/fragment_slideshow.xml",
-        "source": "com.example.myapplication.app-main-29:/layout/fragment_slideshow.xml"
-    },
-    {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-26:/layout/content_main.xml",
-        "source": "com.example.myapplication.app-main-29:/layout/content_main.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-26:/layout/fragment_gallery.xml",
-        "source": "com.example.myapplication.app-main-29:/layout/fragment_gallery.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-26:/layout/activity_main.xml",
-        "source": "com.example.myapplication.app-main-29:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-26:/layout/app_bar_main.xml",
-        "source": "com.example.myapplication.app-main-29:/layout/app_bar_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-mergeDebugResources-26:\\layout\\fragment_gallery.xml",
-        "source": "C:\\Users\\myungwan\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-29:\\layout\\fragment_gallery.xml"
+        "merged": "com.androidNative.forTest.app-mergeDebugResources-26:/layout/fragment_gallery.xml",
+        "source": "com.androidNative.forTest.app-main-29:/layout/fragment_gallery.xml"
     }
 ]

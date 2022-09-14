@@ -5,6 +5,10 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -29,9 +33,9 @@
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
     <option name="KEY_STORE_PATH" value="C:\Users\myungwan\Desktop\mobile_application\androidNativeKeyStore.jks" />
-    <option name="KEY_ALIAS" value="androidNativeKey" />
-    <option name="BUILD_TARGET_KEY" value="apk" />
+    <option name="KEY_ALIAS" value="androidKey" />
   </component>
   <component name="ProjectId" id="2E7FNzmMBAvAIgBxkzUsY0ZTvEk" />
   <component name="ProjectViewState">
@@ -40,14 +44,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="My_Application.app" />
+    <property name="BundleExportedModule" value="My_Application.app" />
+    <property name="DEBUGGABLE_DEVICE" value="Pixel_5_API_30 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.androidNative.forTest" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="ExportApk.ApkPath" value="C:\Users\myungwan\Desktop\mobile_application\android_native\app" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flutter_firebasesss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\myungwan\Desktop\mobile_application\android_native\app" />
       <recent name="C:\Users\myungwan\Desktop\모바일어플리케이션 폴더\android_native\app" />
     </key>
   </component>
