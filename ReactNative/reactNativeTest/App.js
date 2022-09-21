@@ -5,7 +5,7 @@ import analytics from '@react-native-firebase/analytics';
 
 const App =  () => {
     const [shouldOpenWebview, setShouldOpenWebview] = useState(false);
-    if (shouldOpenWebview) return <WebView source={{ uri: 'http://mywanpark.dothome.co.kr/rn-index.html' }} />
+    if (shouldOpenWebview) return <WebView source={{ uri: 'http://mywanpark.dothome.co.kr/rn-index.html' }} javaScriptEnabled={true}/>
     return (
         <View>
             <Text>hello world</Text>
