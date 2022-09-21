@@ -1,4 +1,4 @@
-#Tue Sep 13 12:55:10 KST 2022
+#Tue Sep 20 17:15:04 KST 2022
 base.0=C\:\\Users\\myungwan\\Desktop\\mobile_application\\flutter_firebasesss\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

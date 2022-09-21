@@ -2,24 +2,25 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'dart:math';
+
+import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
-
-  Future<void> initializeFirebase() async {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
-  }
 
   @override
   State<MyApp> createState() => _State();
@@ -49,8 +50,14 @@ class _State extends State<MyApp> {
           ),
           body: Center(
             child: ElevatedButton(
-              onPressed: () => {
-                runApp(const WebViewExample())
+                onPressed: () async => {
+                await FirebaseAnalytics.instance.logEvent(
+                  name: "webview_btn_clicked",
+                  parameters: {
+                  "event_name": "webview_btn_clicked",
+                },
+                ),
+                  runApp(const WebViewExample())
               },
               child: Text('Button Clicks'),
             ),
@@ -78,7 +85,7 @@ class WebViewExampleState extends State<WebViewExample> {
   @override
   Widget build(BuildContext context) {
     return const WebView(
-      initialUrl: 'https://labbit.kr/',
+      initialUrl: 'http://mywanpark.dothome.co.kr/flutter-fire.html',
     );
   }
 }

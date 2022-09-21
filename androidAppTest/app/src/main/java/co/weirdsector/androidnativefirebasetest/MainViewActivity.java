@@ -16,7 +16,7 @@ public class MainViewActivity extends AppCompatActivity {
         WebView wb = findViewById(R.id.webView);
         wb.getSettings().setSupportMultipleWindows(false);
         wb.setWebViewClient(new WebViewClient()); // 클릭시 새창 안뜨게
-        wb.loadUrl("https://labbit.kr/");
+        wb.loadUrl("http://mywanpark.dothome.co.kr/");
 
     }
 }
