@@ -1,5 +1,7 @@
 package co.weirdsector.androidnativefirebasetest;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -21,5 +23,9 @@ public class MainViewActivity extends AppCompatActivity {
         wb.getSettings().setJavaScriptEnabled(true);
         wb.loadUrl("http://mywanpark.dothome.co.kr/");
 
+        // ATTENTION: This was auto-generated to handle app links.
+        Intent appLinkIntent = getIntent();
+        String appLinkAction = appLinkIntent.getAction();
+        Uri appLinkData = appLinkIntent.getData();
     }
 }
